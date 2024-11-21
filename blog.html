@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Blog, Loja de Vestidos, Moda Feminina, Dicas de Moda">
+    <title>Blog - Loja Tropical</title>
+    <meta name="description" content="Blog com dicas de moda, tendências e novidades da Loja Tropical.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet">
+    <link rel="icon" href="img/icon-dress.jpg">
+    <style>
+        body {
+            background-color: #FFF7E6;
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .cabecalho {
+            background-color: #FFDAB9;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #FF6347;
+            font-size: 28px;
+            text-transform: uppercase;
+        }
+
+        .menu {
+            display: flex;
+            gap: 15px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #2E8B57;
+            font-weight: bold;
+            border: 2px solid #FFDAB9;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: #FF6347;
+            color: white;
+            border-color: #FF6347;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #FFFAF0;
+        }
+
+        .banner .title h2 {
+            color: #FF6347;
+            font-size: 36px;
+        }
+
+        .banner .title h3 {
+            color: #2E8B57;
+            font-size: 24px;
+        }
+
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        .post {
+            width: 300px;
+            background: #FFF;
+            border: 2px solid #FFDAB9;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .post img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .post h3 {
+            color: #FF6347;
+            font-size: 22px;
+            margin: 10px 0;
+        }
+
+        .post p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        footer {
+            background: #FFDAB9;
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <h1 class="logo">Loja Tropical</h1>
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="quem_somos.html">Quem somos</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <div class="banner">
+        <div class="title">
+            <h2>Blog da Loja Tropical</h2>
+            <h3>Dicas, tendências e novidades do mundo da moda</h3>
+        </div>
+    </div>
+
+    <!-- POSTS -->
+    <main class="posts">
+        <article class="post">
+            <img src="https://cdnv2.moovin.com.br/grupomelo/imagens/produtos/det/vestido-farm-midi-estampado-paisagem-ribeirinha-azul-neblina-9e53fff44abc71e0964515e0e2cfffe3.jpg" alt="Post sobre Moda">
+            <h3>As Tendências de Moda para 2024</h3>
+            <p>Descubra as principais tendências para o próximo ano e fique por dentro do que vai bombar na moda feminina!</p>
+        </article>
+        <article class="post">
+            <img src="https://cdn.awsli.com.br/600x450/691/691624/produto/245828670/vestido-longo-fim-de-tarde-qgwvk11io9.jpg" alt="Post sobre Cuidados">
+            <h3>Cuidados Essenciais para Seus Vestidos</h3>
+            <p>Aprenda como cuidar dos seus vestidos para garantir que eles permaneçam bonitos e duráveis por muito tempo.</p>
+        </article>
+        <article class="post">
+            <img src="https://cdnv2.moovin.com.br/grupomelo/imagens/produtos/det/vestido-farm-longo-detalhe-peixe-amarelo-cevada-2287935b21f0b2b22a7d3ba6d26c3a96.webp" alt="Post sobre Estilo">
+            <h3>Como Encontrar Seu Estilo Pessoal</h3>
+            <p>Saiba como identificar o estilo que mais combina com você e valoriza sua personalidade através das roupas.</p>
+        </article>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Copyright © 2024. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
